@@ -24,4 +24,4 @@ Other Standards:
 
 Meta Level
 
-* How we write standards
+* [How we write standards](/meta/how.md)
