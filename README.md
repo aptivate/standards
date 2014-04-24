@@ -10,7 +10,7 @@ Standards without a link have yet to be written.
 
 Coding Standards:
 
-* Python
+* [Python and Django](/coding/python.md)
 * Javascript
 * PHP
 * HTML
