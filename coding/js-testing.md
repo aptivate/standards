@@ -1,6 +1,8 @@
 Javascript testing
 ------------------
 
+* Status: proposal.
+
 ## Installation
 
 ### django.js
@@ -213,7 +215,7 @@ resources (runserver potentially still required) to be running).
 
 Visit the test URL in browser and look for QUnit data in the page (`<div id="qunit">`)
 
-![Screenshot](https://lh6.googleusercontent.com/U_uLLhOrVOLfkRUPYIBXqiyfbWe_WA_fXloL-kdUzAbLUmDeCCKNwz37zq5k8GzEv9JZrWIki04)
+![Screenshot](js-testing-screenshot.png)
 
 You can see from the screenshot how the QUnit test results appear at the bottom
 of what is otherwise the normal page rendered by your view.
