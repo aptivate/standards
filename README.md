@@ -12,7 +12,7 @@ Coding Standards:
 
 * [Python and Django](/coding/python.md)
 * Javascript
-** [Django JavaScript testing](/coding/js-testing.md)
+    * [Django JavaScript testing](/coding/js-testing.md)
 * PHP
 * HTML
 * CSS
