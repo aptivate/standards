@@ -10,8 +10,9 @@ Standards without a link have yet to be written.
 
 Coding Standards:
 
-* Python
+* [Python and Django](/coding/python.md)
 * Javascript
+    * [Django JavaScript testing](/coding/js-testing.md)
 * PHP
 * HTML
 * CSS
@@ -21,6 +22,7 @@ Other Standards:
 * Git usage
 * Standard Django Apps
 * Standard Pairing Setup
+* [Licenses](/other/licenses.md)
 
 Meta Level
 
