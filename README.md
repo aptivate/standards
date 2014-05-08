@@ -22,6 +22,7 @@ Other Standards:
 * Git usage
 * Standard Django Apps
 * Standard Pairing Setup
+* [Licenses](/other/licenses.md)
 
 Meta Level
 
