@@ -59,7 +59,7 @@ Put metaclasses first in class definition (Django)
 
 Always (unless there is a good reason) use
 
-    from __future__ import unicode_literals, absolute_imports
+    from __future__ import unicode_literals, absolute_import
 
 ### String quoting
 
