@@ -323,8 +323,10 @@ Expected test run output:
 
     wget http://localhost:8000/en/countries/country_comparison_js_test/angola/ -k -O /tmp/angola.html
 
-wget -k rewrites relative URLS so phantomjs will be able to load referenced the
-resources (runserver potentially still required) to be running).
+`wget -k` rewrites relative URLS so phantomjs will be able to load referenced the
+resources. The rewritten URLs will refer to `http://localhost:8000/`, so you will
+need `manage.py runserver` running when you start `phantomjs` to actually serve any
+such resources.
 
     phantomjs .ve/local/lib/python2.7/site-packages/djangojs/phantomjs/qunit-runner.js /tmp/angola.html
 
