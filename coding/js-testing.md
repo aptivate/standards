@@ -142,6 +142,7 @@ To use this strategy, write your template as above, place it in your app, write 
     from djangojs.views import QUnitView
     
     class MyQUnitView(QUnitView):
+        template_name = 'my-qunit-runner.html'
         js_files = (
             'js/lib/my-lib.js',
             'js/test/*.specs.js',
@@ -165,7 +166,9 @@ Wire it into your app's `test_urls.py`:
 
 and derive your test class from  `JsTestCase`. For example:
 
-    class QUnitTests(QunitSuite, JsTemplateTestCase):
+    from djangojs.runners import JsTestCase, QUnitSuite
+    
+    class QUnitTests(QUnitSuite, JsTestCase):
         urls = 'myapp.test_urls'
         title = 'My QUnit suite'
         url_name = 'my_qunit_view'
@@ -281,6 +284,8 @@ assertions `ok` and `equal`. [See QUnit documentation](https://api.qunitjs.com/c
 
 
 ### Django JavaScript integration `<app>/tests.py`
+
+    from djangojs.runners import JsTestCase, QUnitSuite
 
     @override_settings(ROOT_URLCONF="country_comparison.test_urls",
         DEBUG_PROPAGATE_EXCEPTIONS=True)
