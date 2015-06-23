@@ -3,7 +3,7 @@ Aptivate Standards
 
 This is a collection of technical standards we use at Aptivate.
 
-We also have a private repo with [tech wisdom](https://github.com/aptivate/techwisdom).
+We also have a private repo with [tech wisdom](https://github.com/aptivate/techwisdom) - tips and tricks that people want to share, rather than standards we should all follow (and anything that needs to be kept private for whatever reason).
 
 Standards Index
 ---------------
