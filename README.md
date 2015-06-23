@@ -3,6 +3,8 @@ Aptivate Standards
 
 This is a collection of technical standards we use at Aptivate.
 
+We also have a private repo with [tech wisdom](https://github.com/aptivate/techwisdom).
+
 Standards Index
 ---------------
 
