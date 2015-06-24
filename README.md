@@ -18,6 +18,7 @@ Coding Standards:
 * PHP
 * HTML
 * CSS
+     We use some CSS processors. We perfer SASS, but we have also used LESS and Compass.
 
 Other Standards:
 
