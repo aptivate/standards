@@ -8,10 +8,11 @@ We also have a private repo with [tech wisdom](https://github.com/aptivate/techw
 Standards Index
 ---------------
 
-Standards without a link have yet to be written.
+Standards without a link are not yet written. 
 
 Coding Standards:
 
+* [Documentation](/docs/documentation.md)
 * [Python and Django](/coding/python.md)
 * Javascript
     * [Django JavaScript testing](/coding/js-testing.md)
